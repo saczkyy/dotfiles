@@ -1,0 +1,46 @@
+﻿<Window x:Class="pocz.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:pocz"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton Name="list" Content="list" HorizontalAlignment="Left" Margin="254,63,0,0"
+            VerticalAlignment="Top" />
+        <RadioButton Name="paczka" Content="paczka" HorizontalAlignment="Left" Margin="254,88,0,0"
+            VerticalAlignment="Top" />
+        <RadioButton Name="pocztowka" Content="Pocztówka" HorizontalAlignment="Left"
+            Margin="254,115,0,0" VerticalAlignment="Top" />
+        <TextBox x:Name="ulica" HorizontalAlignment="Left" Margin="450,79,0,0" TextWrapping="Wrap"
+            VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="kod" HorizontalAlignment="Left" Margin="450,134,0,0" TextWrapping="Wrap"
+            VerticalAlignment="Top" Width="74" Height="18" />
+        <TextBox x:Name="miasto" HorizontalAlignment="Left" Margin="450,186,0,0" TextWrapping="Wrap"
+            VerticalAlignment="Top" Width="120" />
+        <Image x:Name="list1" HorizontalAlignment="Left" Height="100" Margin="237,211,0,123"
+            Width="100" Source="/list.png" Visibility="Hidden" />
+        <Image x:Name="paczka1" HorizontalAlignment="Left" Height="100" Margin="237,211,0,123"
+            Width="100" Source="/paczka.jpg" OpacityMask="Black" Visibility="Hidden" />
+        <Image x:Name="pocztowka1" HorizontalAlignment="Left" Height="100" Margin="237,211,0,123"
+            Width="100" Source="/pocztowka.jpg" />
+        <Button x:Name="przycisk" Content="Sprawdź Cenę" HorizontalAlignment="Left"
+            Margin="237,145,0,0" VerticalAlignment="Top" Click="przycisk_Click" Width="135" />
+        <TextBlock x:Name="cena" HorizontalAlignment="Left" Margin="353,245,0,0" TextWrapping="Wrap"
+            Text="Cena: 1zl" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="450,58,0,0" TextWrapping="Wrap"
+            Text="Ulica z Numerem" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="450,113,0,0" TextWrapping="Wrap"
+            Text="Kod Pocztowy" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="450,170,0,0" TextWrapping="Wrap" Text="Miasto"
+            VerticalAlignment="Top" />
+        <Button x:Name="zat" Content="Zatwierdz" HorizontalAlignment="Left" Margin="237,294,0,0"
+            VerticalAlignment="Top" Click="zat_Click" Width="403" />
+        <TextBlock x:Name="wyn" HorizontalAlignment="Left" Margin="237,319,0,0" TextWrapping="Wrap"
+            VerticalAlignment="Top" />
+        <Border BorderBrush="Black" BorderThickness="1" Margin="426,53,160,201" />
+        <Border BorderBrush="Black" BorderThickness="1" Margin="237,53,428,282" />
+
+    </Grid>
+</Window>

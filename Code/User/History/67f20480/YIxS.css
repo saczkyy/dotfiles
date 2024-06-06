@@ -1,0 +1,8 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  width: 200px;
+}/*# sourceMappingURL=styl1.css.map */

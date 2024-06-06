@@ -1,0 +1,25 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+background: #4c8f5c;
+display: flex;
+Justify-content: center;
+align-items: center;
+}
+
+.App{
+text-align: center;
+}
+
+h1{
+color: #Fff;
+margin-bottom: 0.5rem;
+font-size: 1.75rem;
+}
+

@@ -1,0 +1,41 @@
+file:///home/saczky/3klasa/kasyno/justbet/static/css/header.sass {"mtime":1686828749460,"ctime":1686054446326,"size":747,"etag":"3amohe1r2o3","orphaned":false,"typeId":""}
+@import 'variables'
+
+.account
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    a
+        padding-inline: 20px
+.username
+    color: $light
+    
+
+header
+    a
+        text-decoration: none
+        color: $white
+        
+    color: $white
+    position: fixed
+    width: 100%
+    height: $header-height
+    // background-color: #b7732a  
+    background-color: $blackerblack
+    box-shadow: 0 0 18px $black   
+    margin-bottom: 12px 
+    .header-wrapper 
+        height: $header-height
+        img
+            max-width: 100%
+            max-height: 100%
+            padding: 4px
+.header_nav
+    padding: 1rem
+    height: 100%
+    display: flex
+    align-content:center
+    justify-content: space-between
+
+

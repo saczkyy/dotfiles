@@ -1,0 +1,58 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: "Lato", sans-serif
+    color: #f1f1dd
+body
+    background-color: #333333
+
+.wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+textarea
+    resize: none
+    height: 50px
+    width: 340px
+    padding: 8px
+    border-radius: 20px
+    border: 1px solid #535353
+    background-color: #3c3c3c
+    transition: 0.6s
+    font-size: 20px
+textarea:focus
+    height: 150px
+
+h1
+    font-size: 8rem
+    color: #82c350
+
+.entries
+    box-sizing: content-box
+.entry
+    max-height: 80px
+    height: auto
+    width: 340px
+    padding-bottom:30px 
+    padding: 8px
+    border-radius: 20px
+    border: 1px solid #535353
+    background-color: #3c3c3c
+    overflow: hidden
+    line-height: 30px
+    transition: max-height 1s
+.entry:not(:first-child)
+    margin-top: -20px
+
+.entry span
+    white-space: nowrap
+    font-size: 20px
+.entry:hover  
+    transition: max-height 1s
+    max-height: none
+    overflow: visible
+    span
+        white-space: normal
+

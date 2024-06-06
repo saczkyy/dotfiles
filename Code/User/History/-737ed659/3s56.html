@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Good doctor</h1>
+    <p>
+        masz umowione {{ ile }} wizyty
+    </p>
+    <h2>Lista twoich pacjentow</h2>
+    <ol>
+        {% for pacjent in pacjenci %}
+            <a href="{% url 'detail' %}"></a><li>{{pacjent.imie}} {{pacjent.nazwisko}}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

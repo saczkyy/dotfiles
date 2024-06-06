@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "html.format.contentUnformatted": "",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {"*html": "html"},
+    "emmet.useInlineCompletions": true
+}

@@ -1,0 +1,31 @@
+@use '_reset.sass'
+@use '_content-grid.sass'
+@use '_variables.sass' as *
+
+#space
+    height: 100vh
+    width: 100vw
+    position: relative
+    background-color: #0e0e12
+    overflow: hidden
+
+@keyframes blink
+    100%
+        background-color: #0e0e12
+
+.star
+    position: absolute
+    border-radius: 50%
+    height: 4px 
+    width: 4px
+    filter: blur(2px)
+    animation: blink 3s infinite alternate ease-in
+
+#counter
+    color: #ffffff10
+    box-shadow: #ffffff 20px 2px
+    right: 100px
+    top: 10px
+    font-size: 1.8rem
+    font-weight: 600
+

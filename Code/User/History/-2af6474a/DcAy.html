@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %} Lista pokoi {% endblock %}
+{% block content %}
+{% for r in rooms %}
+{{r}}
+<br/>
+{% endfor %}
+<a href="{% url 'welcome' %}"> strona gtowna </a>
+{% endblock %}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Site{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <header>
+        <h1>{% block header %}Welcome to My Site{% endblock %}</h1>
+        <!-- Add navigation or other header content here -->
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+        <!-- This is where the content of the extending templates will go -->
+    </main>
+
+    <footer>
+        <!-- Add footer content here -->
+        <p>&copy; 2023 My Site. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript links or other scripts here -->
+
+</body>
+</html>

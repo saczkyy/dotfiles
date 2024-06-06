@@ -1,0 +1,12 @@
+2024-06-06 14:35:32.576 [info] Test server listening.
+2024-06-06 14:35:32.700 [info] Only Pylance is supported in untrusted workspaces, setting language server to None.
+2024-06-06 14:35:32.700 [info] Starting Jedi language server for qtile.
+2024-06-06 14:35:35.087 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/saczky/.config/qtile
+2024-06-06 14:35:35.098 [info] Test server listening.
+2024-06-06 14:35:35.103 [info] > hatch env show --json
+2024-06-06 14:35:35.103 [info] cwd: .
+2024-06-06 14:35:35.127 [info] Python interpreter path: /bin/python
+2024-06-06 14:35:35.157 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-06 14:35:35.193 [info] > pyenv which python
+2024-06-06 14:35:35.193 [info] cwd: .
+2024-06-06 14:35:38.221 [info] Starting Jedi language server for qtile.

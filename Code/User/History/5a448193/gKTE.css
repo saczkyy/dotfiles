@@ -1,0 +1,97 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.radioButtons{
+  
+}
+
+body {
+background: #4c8f5c;
+display: flex;
+Justify-content: center;
+align-items: center;
+}
+
+.App{
+text-align: center;
+}
+
+h1{
+color: #Fff;
+margin-bottom: 0.5rem;
+font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1a481a;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+
+}
+  
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+  
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #58ffbf;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #Fff;
+}
+
+.todo-1nput::placeholder {
+  color:#Ffffff4d;
+}  
+
+.todo-btn {
+  background: #58ffbf;
+  color:#FFf;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+ 
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #135c48;
+  color: #Fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+  
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #Fff;
+  cursor: pointer;
+}
+  
+.completed {
+  color: #aeffdd;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+  
+.edit-icon,  
+.delete-icon {
+  cursor: pointer;
+}
+  
+  
+  

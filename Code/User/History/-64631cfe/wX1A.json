@@ -1,0 +1,27 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "html.format.contentUnformatted": "",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {"*html": "html"},
+    "emmet.useInlineCompletions": true,
+    "python.languageServer": "Jedi",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "csharp.referencesCodeLens.enabled": false,
+    "editor.codeLens": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "gitlens.mode.active": "zen",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+}

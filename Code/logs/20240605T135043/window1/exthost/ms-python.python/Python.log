@@ -1,0 +1,19 @@
+2024-06-05 13:51:02.037 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/saczky/CrisisPreventionProject
+2024-06-05 13:51:02.037 [info] Test server listening.
+2024-06-05 13:51:02.037 [info] Python interpreter path: /bin/python
+2024-06-05 13:51:02.044 [info] > pyenv which python
+2024-06-05 13:51:02.044 [info] cwd: .
+2024-06-05 13:51:03.377 [info] Starting Jedi language server for CrisisPreventionProject.
+2024-06-05 13:51:21.950 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:51:44.321 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:52:07.859 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:52:17.565 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:52:33.234 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:53:18.541 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/normalizeSelection.py
+2024-06-05 13:53:19.010 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:53:19.673 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:53:34.302 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:53:41.129 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:55:10.986 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 13:55:14.991 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py
+2024-06-05 14:09:19.101 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py

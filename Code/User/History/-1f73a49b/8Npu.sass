@@ -1,0 +1,8 @@
+*
+    border: 2px dotted red
+
+div,section,main,h1,h2,h3,h4,h5,h6,p,img
+    @for $i from 1 through $reapet
+        &:nth-child(#{$i}) {
+            border: 2px dotted rgb(random(255), random(255), random(255))}
+             

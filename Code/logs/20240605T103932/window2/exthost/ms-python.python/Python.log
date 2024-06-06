@@ -1,0 +1,6 @@
+2024-06-05 12:55:53.079 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/saczky/CrisisPreventionProject
+2024-06-05 12:55:53.091 [info] Python interpreter path: /bin/python
+2024-06-05 12:55:53.092 [info] Test server listening.
+2024-06-05 12:55:53.125 [info] > pyenv which python
+2024-06-05 12:55:53.125 [info] cwd: .
+2024-06-05 12:55:54.448 [info] Starting Jedi language server for CrisisPreventionProject.

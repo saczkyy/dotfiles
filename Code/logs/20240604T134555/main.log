@@ -1,0 +1,4 @@
+2024-06-04 13:45:55.963 [info] update#setState disabled
+2024-06-04 13:45:55.967 [info] update#ctor - updates are disabled as there is no update URL
+2024-06-04 13:46:10.412 [warning] [UtilityProcessWorker]: createWorker() found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2024-06-04 15:32:02.718 [info] Extension host with pid 1401193 exited with code: 0, signal: unknown.

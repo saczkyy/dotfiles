@@ -1,0 +1,838 @@
+Apr 16, 2024 12:13:10 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.26.1
+ - Java : /usr/lib/jvm/java-17-openjdk
+ - VM Version : 17.0.10
+ - Git 8379294 - [maven-release-plugin] prepare release 0.26.1
+Apr 16, 2024 12:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+Apr 16, 2024 12:32:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1044
+Apr 16, 2024 12:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1283
+Apr 22, 2024 9:52:47 AM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.26.1
+ - Java : /usr/lib/jvm/java-17-openjdk
+ - VM Version : 17.0.10
+ - Git 8379294 - [maven-release-plugin] prepare release 0.26.1
+Apr 22, 2024 9:53:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Apr 22, 2024 10:22:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Apr 22, 2024 2:59:52 PM org.eclipse.lemminx.XMLLanguageServer initialize
+INFO: Initializing XML Language server
+LemMinX Server info:
+ - Version : 0.26.1
+ - Java : /usr/lib/jvm/java-17-openjdk
+ - VM Version : 17.0.10
+ - Git 8379294 - [maven-release-plugin] prepare release 0.26.1
+Apr 22, 2024 2:59:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Apr 22, 2024 6:24:11 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=2, No such file or directory
+java.io.IOException: Cannot run program "kill": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:24:41 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=2, No such file or directory
+java.io.IOException: Cannot run program "kill": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:25:11 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 940506, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 940506, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 940506, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:25:41 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 941131, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 941131, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 941131, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:26:11 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 941743, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 941743, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 941743, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:26:41 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 942334, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 942334, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 942334, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:27:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 942910, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 942910, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 942910, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:27:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 944694, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 944694, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 944694, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:28:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 951647, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 951647, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 951647, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:28:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 952570, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 952570, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 952570, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:29:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 955813, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 955813, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 955813, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:29:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 956462, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 956462, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 956462, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:30:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 957108, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 957108, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 957108, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:30:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 957769, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 957769, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 957769, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:31:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 958413, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 958413, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 958413, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:31:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 959073, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 959073, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 959073, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:32:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 959713, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 959713, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 959713, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:32:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 960372, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 960372, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 960372, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:33:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 961053, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 961053, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 961053, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:33:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 961710, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 961710, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 961710, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:34:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 962345, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 962345, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 962345, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:34:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 962987, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 962987, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 962987, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:35:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 963624, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 963624, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 963624, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:35:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 964266, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 964266, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 964266, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:36:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 964904, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 964904, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 964904, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:36:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 965569, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 965569, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 965569, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:37:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 966221, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 966221, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 966221, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:37:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 966889, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 966889, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 966889, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:38:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 967544, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 967544, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 967544, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:38:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 968201, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 968201, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 968201, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:39:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 968855, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 968855, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 968855, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:39:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 969485, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 969485, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 969485, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:40:12 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 970042, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 970042, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 970042, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:40:42 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 970654, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 970654, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 970654, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
+Apr 22, 2024 6:41:29 PM org.eclipse.lemminx.commons.ParentProcessWatcher parentProcessStillRunning
+WARNING: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 971295, exit value: 1
+java.io.IOException: Cannot run program "kill": error=0, Failed to exec spawn helper: pid: 971295, exit value: 1
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at java.base/java.lang.Runtime.exec(Runtime.java:594)
+	at java.base/java.lang.Runtime.exec(Runtime.java:418)
+	at java.base/java.lang.Runtime.exec(Runtime.java:315)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.parentProcessStillRunning(ParentProcessWatcher.java:96)
+	at org.eclipse.lemminx.commons.ParentProcessWatcher.run(ParentProcessWatcher.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=0, Failed to exec spawn helper: pid: 971295, exit value: 1
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+

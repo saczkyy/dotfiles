@@ -1,0 +1,23 @@
+@use 'sass:math'
+@use '_variables.sass' as *
+    
+.content-grid, .content-text, .breakout-full-image
+    $breakout-size: math.div(($breakout-max-width - $content-max-width), 2) 
+
+    display: grid
+    grid-template-columns: [full-width-start] minmax($padding-inline, 1fr) [breakout-start] minmax(0, $breakout-size) [content-start] min(100% - ($padding-inline * 2), $content-max-width) [content-end] minmax(0, $breakout-size) [breakout-end] minmax($padding-inline, 1fr) [full-width-end]
+
+.content-grid > *
+    grid-column: content
+
+.breakout
+    grid-column: breakout
+
+.breakout-full-image > *
+    grid-column: breakout
+
+.full-width-image, .breakout-full-image 
+    grid-column: full-width
+
+.content
+    grid-column: content

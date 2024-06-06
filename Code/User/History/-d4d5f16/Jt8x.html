@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}halo{% endblock  %}
+
+
+{% block content %}
+
+<div>
+    <ul>
+        {% for u in ludzie %}
+            <li>{{u.pseudonim}}</li>
+        {% endfor %}
+    </ul>
+    <img src="{% static 'images/hobby.jpg' %}" alt="">
+</div>
+{% endblock content %}

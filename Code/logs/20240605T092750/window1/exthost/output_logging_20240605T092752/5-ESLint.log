@@ -1,0 +1,24 @@
+[Info  - 09:27:55] ESLint server is starting.
+[Info  - 09:27:55] ESLint server running in node v18.18.2
+[Info  - 09:27:55] ESLint server is running.
+Uncaught exception received.
+Error: spawn /usr/lib/electron28/electron ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Uncaught exception received.
+Error: spawn /usr/lib/electron28/electron ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Uncaught exception received.
+Error: spawn /usr/lib/electron28/electron ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Uncaught exception received.
+Error: spawn /usr/lib/electron28/electron ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[Info  - 10:37:33] ESLint server stopped.

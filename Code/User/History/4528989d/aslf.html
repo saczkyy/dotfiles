@@ -1,0 +1,11 @@
+{% load static %}
+{% block title %}halo{% endblock %}
+
+
+{% block content %}
+<ul>
+    {% for u in lista %}
+        <li>{{u}}</li>
+    {% endfor %}
+</ul>
+{% endblock content %}

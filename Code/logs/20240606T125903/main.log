@@ -1,0 +1,35 @@
+2024-06-06 12:59:03.522 [info] update#setState disabled
+2024-06-06 12:59:03.525 [info] update#ctor - updates are disabled as there is no update URL
+2024-06-06 14:22:25.243 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:22:45.886 [error] [storage state.vscdb] prepare(): Error: SQLITE_FULL: database or disk is full (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 19609
+2024-06-06 14:22:45.887 [error] [storage state.vscdb] transaction(): Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:22:45.890 [error] [uncaught exception in main]: Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:22:45.890 [error] Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:22:51.919 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:08.159 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:21.007 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:21.135 [error] [storage state.vscdb] prepare(): Error: SQLITE_FULL: database or disk is full (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 19608
+2024-06-06 14:23:21.137 [error] [storage state.vscdb] transaction(): Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:23:21.139 [error] [uncaught exception in main]: Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:23:21.139 [error] Error: SQLITE_ERROR: cannot commit - no transaction is active
+2024-06-06 14:23:21.324 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:36.108 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:46.051 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:23:46.372 [error] Error: Unable to write file '/home/saczky/.config/Code/User/globalStorage/storage.json' (Unknown (FileSystemError): Error: ENOSPC: no space left on device, write)
+    at a.writeFile (/usr/lib/code/out/vs/code/electron-main/main.js:61:16829)
+    at async d.t (/usr/lib/code/out/vs/code/electron-main/main.js:65:8970)
+2024-06-06 14:25:02024-06-06 14:35:26.200 [info] Extension host with pid 69619 exited with code: 0, signal: unknown.

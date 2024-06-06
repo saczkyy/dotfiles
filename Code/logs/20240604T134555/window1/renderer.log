@@ -1,0 +1,26 @@
+2024-06-04 13:45:57.942 [info] Started local extension host with pid 1401193.
+2024-06-04 13:45:58.133 [error] Ignoring expo.appManifest.fileReferences.showHiddenFiles as expo.appManifest.fileReferences is true
+2024-06-04 13:45:58.134 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2024-06-04 13:46:05.771 [info] [perf] Render performance baseline is 138ms
+2024-06-04 13:46:10.410 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/saczky/CrisisPreventionProject)
+2024-06-04 13:46:10.410 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-06-04 13:46:14.046 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/saczky/CrisisPreventionProject/.vscode' failed: No such file or directory (EUNKNOWN) (path: /home/saczky/CrisisPreventionProject)
+2024-06-04 13:46:14.047 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/saczky/CrisisPreventionProject/.vscode' failed: No such file or directory
+2024-06-04 15:23:24.736 [error] Error: file:///home/saczky/CrisisPreventionProject/frontend/src/screens/PhysicalFormScreen/PhysicalFormScreen.styles.ts has changed in the meantime
+    at o.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:805:3141)
+    at o.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:805:4000)
+    at h.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2201:24894)
+    at h.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2201:24359)
+    at m.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2201:26108)
+    at y.$tryApplyWorkspaceEdit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1663:14451)
+    at h.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1630:13952)
+    at h.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1630:13718)
+    at h.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1630:12811)
+    at h.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1630:12029)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1630:10677)
+    at s.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:659)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:89:876)
+    at r.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:629:14507)
+    at H.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1648:8048)
+2024-06-04 15:23:24.741 [warning] IGNORING workspace edit: Error: file:///home/saczky/CrisisPreventionProject/frontend/src/screens/PhysicalFormScreen/PhysicalFormScreen.styles.ts has changed in the meantime
+2024-06-04 15:32:02.446 [warning] [backup tracker] suspended, ignoring content change event git:/home/saczky/CrisisPreventionProject/frontend/src/constants/colors.ts.git?%7B%22path%22%3A%22%2Fhome%2Fsaczky%2FCrisisPreventionProject%2Ffrontend%2Fsrc%2Fconstants%2Fcolors.ts%22%2C%22ref%22%3A%22%22%7D 

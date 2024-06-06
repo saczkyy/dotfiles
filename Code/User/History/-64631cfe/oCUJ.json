@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "html.format.contentUnformatted": ""
+}

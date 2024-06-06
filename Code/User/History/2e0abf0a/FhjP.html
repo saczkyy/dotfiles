@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="{% static 'paliwo/style.css' %}" />
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Stacj Benzynowa</h1>
+    <p>liczba dostepnych paliw - 5</p>
+    <p>Ceny paliw:</p>
+    <table>
+      <tr>
+        <td>Rodzaj paliwa</td>
+        <td>cena</td>
+      </tr>
+      {% for p in paliwo %}
+      <tr>
+        <td>{{ p.rodzaj_paliwa }}</td>
+        <td>{{ p.cena }}</td>
+      </tr>
+
+      {% endfor %}
+    </table>
+    <h1>Oblicz ile litrów musisz zatankowac</h1>
+    <form action="" method="post">
+      <table>
+        {{ form }}
+      </table>
+      {% csrf_token %}
+      <button>policz</button>
+    </form>
+    <p>Potrzebne paliwo: {{ potrzebne }}</p>
+
+    <form action="" method="post">
+      {% csrf_token %} {{ dzialania_form }}
+      <button>policz</button>
+    </form>
+    <br />
+    a: {{ a }} <br />
+    b: {{ b }}
+    <br />
+    suma: {{ suma }} <br />
+    odejmowanie: {{ odejmowanie }} <br />
+    dzielenie: {{ dzielenie }} <br />
+    mnozenie: {{ mnozenie }}
+  </body>
+</html>

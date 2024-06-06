@@ -1,0 +1,136 @@
+$headerHeight: 80px
+    
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+.App
+    height: 100vh
+    background-size: cover
+.App::before
+    pointer-events: none
+    box-shadow: inset 0 0 60em #0a0a0a
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 0
+    background-color: #11111180
+    content: ''
+
+header
+    padding: 15px
+    height: $headerHeight
+    width: 100%
+    display: flex
+    justify-content: center
+    align-content: center
+    position: fixed
+
+    div
+        display: flex
+        background-color: #f5f5f515
+        border-radius: 30px
+        border: 2px solid #f5f5f540
+        height: calc( $headerHeight - 26px )
+        width: auto
+
+    #locationIcon
+        pointer-events: none
+        height: calc( calc( $headerHeight - 30px ) * 0.8)
+        padding: calc( calc( $headerHeight - 30px ) * 0.1)
+        color: #f5f5f599
+        display: block
+
+    #location
+        transition: 0.5s cubic-bezier(.3,.67,.08,.8)
+        width: 300px
+        height: 100%
+        max-width: 0px
+        border: none
+        border-radius: 30px
+        background-color: #00000000
+        outline: none
+        padding: 0px
+        font-size: 26px
+        color: #f5f5f5c9
+        caret-color: #f5f5f599
+
+    #location:focus
+        border-left: 3px solid #f5f5f599
+        max-width: 300px
+        padding-inline: 16px
+
+.display
+    position: sticky
+    display: grid
+    align-items: center
+    justify-items: center
+    grid-template-rows: auto auto
+    width: 33%
+    margin: 0 auto
+    row-gap: 50%
+    padding-block: 10%
+    pointer-events: none
+
+    div#container
+        display: flex
+        flex-direction: column
+        width: 100%
+        justify-content: center
+        align-content: center
+
+    div.additional
+        width: 60%
+        align-self: center
+        background-color: #f5f5f515
+        border-bottom-left-radius: 30px
+        border-bottom-right-radius: 30px
+        border: 2px solid #f5f5f540
+        border-top: none
+
+    div.info
+        height: 300px
+        width: 100%
+        font-family: 'Rubik'
+        color: #f5f5f5f0
+        display: flex
+        flex-direction: column
+        div
+            display: flex
+            justify-content: space-between
+            text-align: right
+        h2
+            font-size: 1.5rem
+        h1
+            font-size: 9rem
+        h3
+            writing-mode: vertical-rl
+            transform: rotate(180deg)
+            text-orientation: sideways-right
+        h4
+            font-size: 2rem
+
+    div.details
+        background-color: #f5f5f515
+        border-radius: 30px
+        border: 2px solid #f5f5f540
+        height: 100px
+        width: 100%
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        justify-items: center
+        align-items: center
+        padding: 8px
+        .detailTitle
+            font-size: 18px
+            color: #f5f5f599
+        .detailData
+            font-size: 32px
+            color: #f5f5f5
+
+
+    

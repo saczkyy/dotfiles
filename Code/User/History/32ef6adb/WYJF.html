@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hejjj</title>
+</head>
+<body>
+    <h1>Liczba pracownikow: {{ liczba }}</h1>
+    <ol>
+        {% for i in pracownicy %}
+            <li>{{pracownicy.imie}} {{pracownicy.nazwisko}} <a href="">szczegoly</a></li>
+
+        {% endfor %}
+    </ol>
+</body>
+</html>

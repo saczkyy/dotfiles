@@ -1,0 +1,8 @@
+05/06/2024, 14:19:05 DotnetWSLCheckEvent
+Checking if system is WSL. OS: linux
+
+05/06/2024, 14:19:05 DotnetWSLOperationOutputEvent
+The output of the WSL check:
+stdout: 
+stderr: 
+status: 1

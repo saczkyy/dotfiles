@@ -1,0 +1,44 @@
+@use '_reset.sass'
+@use '_content-grid.sass'
+@use '_variables.sass' as *
+
+#space
+    height: 100vh
+    width: 100vw
+    position: relative
+    background-color: #0e0e12
+    overflow: hidden
+
+@keyframes blink
+    100%
+        background-color: #0e0e12
+
+.star
+    position: absolute
+    border-radius: 50%
+    height: 4px 
+    width: 4px
+    filter: blur(2px)
+
+.falling
+    height: 8px 
+    width: 8px
+    filter: blur(2px)
+
+.blinking
+    animation: blink 3s infinite alternate ease-in
+
+// .getReal
+//     animation: blink 0.5s forwards
+
+#counter
+    color: #ffffff15
+    position: absolute
+    text-shadow: #0000009a 1px 0 2px
+    left: -4px
+    top: 8px
+    width: 100vw
+    text-align: right
+    font-size: 1.8rem
+    font-weight: 600
+

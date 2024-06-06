@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}halo{% endblock  %}
+
+
+{% block content %}
+<div class="detail">
+    <p>Imie: {{uczen.name}}</p>
+    <p>Nazwisko: {{uczen.surname}}</p>
+    <p>Ps: {{uczen.pseudonim}}</p>
+    <p>Klasa: {{uczen.klasa}}</p>
+    <p>Zaintersad: {{uczen.zainteresowania}}</p>
+</div>
+{% endblock content %}

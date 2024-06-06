@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'content' %}
+
+<form method="POST">
+    {{form}}
+    {% csrf_token %}
+    <button type="submit">Dodaj</button>
+</form>
+
+{% endblock 'content' %}

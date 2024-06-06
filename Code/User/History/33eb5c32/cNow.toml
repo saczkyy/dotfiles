@@ -1,0 +1,53 @@
+# theme = "green_leaves"
+
+[colors.bright]
+black = "#928374"
+blue = "#83a598"
+cyan = "#6d4d41"
+green = "#6C6F57"
+magenta = "#d3869b"
+red = "#fb4934"
+white = "#ebdbb2"
+yellow = "#fabd2f"
+
+[colors.normal]
+black = "#282828"
+blue = "#458588"
+cyan = "#49332b"
+green = "#41492F"
+magenta = "#b16286"
+red = "#cc241d"
+white = "#a89984"
+yellow = "#d79921"
+
+[colors.primary]
+background = "#272822"
+foreground = "#d1b297"
+
+[env]
+EDITOR = "nvim"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "space mono nerd font"
+style = "Bold"
+
+[font.bold_italic]
+family = "space mono nerd font"
+style = "Bold Italic"
+
+[font.italic]
+style = "space mono nerd font"
+
+[font.normal]
+family = "space mono nerd font"
+style = "Regular"
+
+[window]
+opacity = 0.78
+
+[window.padding]
+x = 4
+y = 4

@@ -1,0 +1,81 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+background: #4c8f5c;
+display: flex;
+Justify-content: center;
+align-items: center;
+}
+
+.App{
+text-align: center;
+}
+
+h1{
+color: #Fff;
+margin-bottom: 0.5rem;
+font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1a481a;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+
+}
+  
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+  
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #58ffbf;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #Fff;
+}
+
+.todo-1nput::placeholder {
+  color:#Ffffff4d;
+  
+  ¥
+  
+  .todo-btn {
+  iET LN Eota
+  color: W#FFf;
+  border: nonej
+  padding: @.55rem;
+  cursor: pointer;
+  
+  ¥
+  
+  LT
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+  background: [#135c48;
+  [l H Eroa
+  padding: @.75rem lrem;
+  border-radius: 5Spx;
+  margin-bottom: lrem;
+  
+  ¥
+  
+  .fa-trash {
+  margin-left: @.75rem;
+  
+  H
+  
+  

@@ -1,0 +1,26 @@
+2024-06-04 13:46:38.424 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/saczky/CrisisPreventionProject
+2024-06-04 13:46:38.424 [info] Test server listening.
+2024-06-04 13:46:38.424 [info] > conda info --json
+2024-06-04 13:46:38.424 [info] > hatch env show --json
+2024-06-04 13:46:38.424 [info] cwd: .
+2024-06-04 13:46:38.424 [info] > pyenv which python
+2024-06-04 13:46:38.424 [info] cwd: .
+2024-06-04 13:46:38.427 [info] Found: /bin/python --> /bin/python3.12
+2024-06-04 13:46:38.430 [info] Found: /bin/python3 --> /bin/python3.12
+2024-06-04 13:46:38.430 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-06-04 13:46:38.476 [info] Found: /sbin/python --> /sbin/python3.12
+2024-06-04 13:46:38.477 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-06-04 13:46:38.477 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-06-04 13:46:38.488 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-06-04 13:46:38.488 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-06-04 13:46:38.488 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-06-04 13:46:38.535 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-06-04 13:46:38.536 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-06-04 13:46:38.536 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-06-04 13:46:38.565 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-04 13:46:38.583 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-04 13:46:38.689 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-04 13:46:38.704 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-06-04 13:46:38.814 [info] Python interpreter path: /bin/python
+2024-06-04 13:46:40.522 [info] Starting Jedi language server for CrisisPreventionProject.
+2024-06-04 14:44:56.105 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py

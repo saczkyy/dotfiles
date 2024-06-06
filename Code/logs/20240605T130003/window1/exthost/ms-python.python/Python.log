@@ -1,0 +1,12 @@
+2024-06-05 13:05:36.905 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/saczky/CrisisPreventionProject
+2024-06-05 13:05:36.924 [info] Test server listening.
+2024-06-05 13:05:36.926 [info] Python interpreter path: /bin/python
+2024-06-05 13:05:36.952 [info] > pyenv which python
+2024-06-05 13:05:36.952 [info] cwd: .
+2024-06-05 13:05:38.221 [info] Starting Jedi language server for CrisisPreventionProject.
+2024-06-05 13:05:58.108 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py
+2024-06-05 13:06:03.715 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py
+2024-06-05 13:06:24.462 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py
+2024-06-05 13:12:00.574 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py
+2024-06-05 13:12:22.404 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/crisis_management_system/settings.py
+2024-06-05 13:49:46.720 [info] Discover tests for workspace name: CrisisPreventionProject - uri: /home/saczky/CrisisPreventionProject/backend/user/apis.py

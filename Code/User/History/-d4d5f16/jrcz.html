@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}halo{% endblock  %}
+
+
+{% block content %}
+
+<div>
+    {% for u in ludzie %}
+        <p>{{u}}</p>
+    {% endfor %}
+</div>
+{% endblock content %}

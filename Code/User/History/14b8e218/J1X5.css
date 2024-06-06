@@ -1,0 +1,50 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+background: #4c8f5c;
+display: flex;
+Justify-content: center;
+align-items: center;
+}
+
+.App{
+text-align: center;
+}
+
+h1{
+color: #Fff;
+margin-bottom: 0.5rem;
+font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1a481a;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+
+}
+  
+  -TodoForm {
+  
+  [0 G T
+  margin-bottom: 1rem;
+  
+  ¥
+  
+  .todo-input {
+  outline: nonej
+  background: nonej;
+  border: 1px solid E#58ffbf;
+  padding: 8.5rem lrem;
+  margin-top: 1lrem;
+  margin-bottom: 2rem;
+  width: 3eepx;
+  faal i F3o=o0
+  

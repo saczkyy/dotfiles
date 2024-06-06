@@ -1,0 +1,13 @@
+{% extends base.html %}
+{% block 'content' %}
+<h1>Good doctor</h1>
+    <p>
+        masz umowione {{ ile }} wizyty
+    </p>
+    <h2>Lista twoich pacjentow</h2>
+    <ol>
+        {% for pacjent in pacjenci %}
+            <a href="{% url 'detail' pacjent.id %}"><li>{{pacjent.imie}} {{pacjent.nazwisko}}</li></a>
+        {% endfor %}
+    </ol>
+{% endblock 'content' %}

@@ -1,0 +1,4 @@
+2024-06-05 13:50:45.235 [info] Started local extension host with pid 209945.
+2024-06-05 13:50:45.325 [error] Ignoring expo.appManifest.fileReferences.showHiddenFiles as expo.appManifest.fileReferences is true
+2024-06-05 13:50:45.325 [error] Ignoring expo.appManifest.fileReferences.excludeGlobPatterns as expo.appManifest.fileReferences is true
+2024-06-05 13:50:50.813 [info] [perf] Render performance baseline is 160ms

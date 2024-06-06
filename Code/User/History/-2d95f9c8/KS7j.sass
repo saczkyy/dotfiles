@@ -1,0 +1,54 @@
+*
+    margin: 0
+    padding: 0
+    font-family: "Garamond"
+    box-sizing: border-box
+
+.wrapper
+    display: grid
+    grid-template-rows: 90px calc( 100vh - 180px ) 90px
+header
+    display: grid
+    grid-template-columns: 75% 25%
+    background-color: #00600F
+    padding: 16px
+    color: #dfdfdd
+    h1
+        text-align: center
+
+
+.content
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    background-color: #C8E6C9
+    overflow-y: scroll
+
+
+.item
+    margin: 16px
+    height: 600px
+    display: grid
+    grid-template-rows: 1fr 1fr
+    border: 1px solid #00600F
+    padding: 8px
+    img
+        height: 300px
+    div 
+        display: flex
+        flex-direction: column
+        *
+            margin-top: 16px
+        h3
+            font-size: 30px
+            color: #dfdfdd
+            text-align: center
+            width: 100%
+            background-color: #00600F
+
+        h4
+            font-size: 24px
+            text-align: right
+
+footer
+    width: 100%
+    background-color: #00600F

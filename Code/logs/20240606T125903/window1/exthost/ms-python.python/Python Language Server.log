@@ -1,0 +1,64 @@
+2024-06-06 14:18:58.663 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+
+2024-06-06 14:18:58.711 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2024-06-06 14:19:02.438 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "11"
+
+2024-06-06 14:19:05.078 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+
+2024-06-06 14:19:05.097 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+
+2024-06-06 14:19:07.503 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "32"
+
+2024-06-06 14:19:07.529 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "33"
+
+2024-06-06 14:19:08.911 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "38"
+
+2024-06-06 14:19:15.581 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "62"
+
+2024-06-06 14:19:27.649 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "103"
+
+2024-06-06 14:19:27.937 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "104"
+
+2024-06-06 14:19:45.939 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "123"
+
+2024-06-06 14:19:47.262 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "129"
+
+2024-06-06 14:19:51.107 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "148"
+
+2024-06-06 14:19:51.494 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "149"
+
+2024-06-06 14:19:53.197 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "159"
+
+2024-06-06 14:19:56.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "172"
+
+2024-06-06 14:19:56.406 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "173"
+
+2024-06-06 14:26:01.394 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "227"
+
+2024-06-06 14:26:02.285 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "228"
+
+2024-06-06 14:26:02.557 [info] ERROR:pygls.protocol:Failed to handle request 231 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/saczky/CrisisPreventionProject/backend/user/apis.py'), range=18:36-18:36, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/jedi/cache.py", line 110, in wrapper
+    return dct[key]
+           ~~~^^^^^
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ^^^^^^^^^^^^^^^
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 558, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 697, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saczky/.vscode/extensions/ms-python.python-2024.4.1-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^

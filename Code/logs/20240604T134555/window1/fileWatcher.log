@@ -1,0 +1,4 @@
+2024-06-04 13:46:10.421 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/saczky/CrisisPreventionProject)
+2024-06-04 13:46:10.421 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-06-04 13:46:14.045 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/saczky/CrisisPreventionProject/.vscode' failed: No such file or directory (EUNKNOWN) (path: /home/saczky/CrisisPreventionProject)
+2024-06-04 13:46:14.046 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/saczky/CrisisPreventionProject/.vscode' failed: No such file or directory
